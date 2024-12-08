@@ -4,8 +4,10 @@ public class Random53ProblemAndSolution {
 //        printOddNumbers();
 //        multipleOf(5, 10);
 //        multipleOfRange(1, 9, 3);
-        calculateSum(1, 5);
+//        calculateSum(1, 5);
+        System.out.println(factorialOf(10));
     }
+
 
 //  #1  Print Numbers from 1 to 10
     public static void printNumbers() {
@@ -46,5 +48,16 @@ public class Random53ProblemAndSolution {
         }
         System.out.println(x);
     }
+
+//    Factorial of the given number using recursion
+    public static int  factorialOf(int n) {
+        /**
+         * let n = 4;
+         * return value = 4 * (3 * (2 * 1))
+         */
+        if (n == 0 || n ==1) return 1;
+        return  n * factorialOf(n - 1);
+    }
+
 
 }
