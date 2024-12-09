@@ -1,10 +1,10 @@
 public class Random53ProblemAndSolution {
     public static void main(String[] args) {
-//        printNumbers();
-//        printOddNumbers();
-//        multipleOf(5, 10);
-//        multipleOfRange(1, 9, 3);
-//        calculateSum(1, 5);
+        printNumbers();
+        printOddNumbers();
+        multipleOf(5, 10);
+        multipleOfRange(1, 9, 3);
+        calculateSum(1, 5);
         System.out.println(factorialOf(10));
     }
 
