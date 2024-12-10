@@ -1,11 +1,15 @@
+import java.sql.Array;
+
 public class Random53ProblemAndSolution {
     public static void main(String[] args) {
-        printNumbers();
-        printOddNumbers();
-        multipleOf(5, 10);
-        multipleOfRange(1, 9, 3);
-        calculateSum(1, 5);
-        System.out.println(factorialOf(10));
+//        printNumbers();
+//        printOddNumbers();
+//        multipleOf(5, 10);
+//        multipleOfRange(1, 9, 3);
+//        calculateSum(1, 5);
+//        System.out.println(factorialOf(10));
+        int[] x = {2,8,4,3,0,9};
+        System.out.println(sumOfArray(x));
     }
 
 
@@ -57,6 +61,15 @@ public class Random53ProblemAndSolution {
          */
         if (n == 0 || n ==1) return 1;
         return  n * factorialOf(n - 1);
+    }
+
+//    Sum of elements in a Array
+    public static int sumOfArray(int[] arr) {
+        int sum = 0;
+        for (int i =0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        return sum;
     }
 
 
