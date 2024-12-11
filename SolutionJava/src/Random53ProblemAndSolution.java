@@ -8,8 +8,8 @@ public class Random53ProblemAndSolution {
 //        multipleOfRange(1, 9, 3);
 //        calculateSum(1, 5);
 //        System.out.println(factorialOf(10));
-        int[] x = {2,8,4,3,0,9};
-        System.out.println(sumOfArray(x));
+//        int[] x = {2,8,4,3,0,9};
+//        System.out.println(sumOfArray(x));
     }
 
 
